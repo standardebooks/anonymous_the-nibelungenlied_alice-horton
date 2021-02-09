@@ -118,7 +118,7 @@ section > header + *{
 
 a[epub|type~="noteref"]{
 	font-size: .75em;
-	font-style: normal!important;
+	font-style: normal !important;
 	vertical-align: super;
 }
 

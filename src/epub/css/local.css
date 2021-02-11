@@ -1,6 +1,13 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+[epub|type~="z3998:poem"] header p{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+/* Poem */
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -21,5 +28,7 @@
 }
 
 span > span:first-of-type{
+	/* styling for caesuras */
 	margin-right: 1.5em;
 }
+/* End poem */

@@ -7,8 +7,12 @@
 	text-align: center;
 }
 
-/* Poem */
+[epub|type~="z3998:poem"]{
+	text-align: center;
+}
+
 [epub|type~="z3998:poem"] p{
+	display: inline-block;
 	text-align: initial;
 	text-indent: 0;
 }
@@ -23,12 +27,7 @@
 	display: none;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 span > span:first-of-type{
 	/* styling for caesuras */
 	margin-right: 1.5em;
 }
-/* End poem */

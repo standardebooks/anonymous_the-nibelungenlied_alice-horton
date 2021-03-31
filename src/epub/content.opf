@@ -29,6 +29,8 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Nibelungenlied</dc:title>
 		<meta property="file-as" refines="#title">Nibelungenlied, The</meta>
+		<meta property="se:alternate-title" refines="#title">The Song of the Nibelungs</meta>
+		<meta property="se:alternate-title" refines="#title">The Lay of the Nibelungs</meta>
 		<dc:subject id="subject-1">Folklore -- Germany</dc:subject>
 		<dc:subject id="subject-2">Siegfried (Legendary character)</dc:subject>
 		<dc:subject id="subject-3">Mythology, Germanic</dc:subject>
@@ -47,8 +49,9 @@
 		<meta property="term" refines="#subject-5">Unknown</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh94003601</meta>
+		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">We follow our hero Siegfried on his epic adventures, death, and wife’s revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Long Description.&lt;/p&gt;
 		</meta>
@@ -65,6 +68,10 @@
 		<meta property="file-as" refines="#translator">Horton, Alice</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<dc:contributor id="editor">Edward Bell</dc:contributor>
+		<meta property="file-as" refines="#editor">Bell, Edward</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Peter Nicolai Arbo</dc:contributor>
 		<meta property="file-as" refines="#artist">Arbo, Peter Nicolai</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Peter_Nicolai_Arbo</meta>

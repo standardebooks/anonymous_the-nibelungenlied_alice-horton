@@ -1,5 +1,15 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+body [xml|lang]{
+	font-style: italic;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
 
 [epub|type~="z3998:poem"] header p{
 	font-variant: small-caps;

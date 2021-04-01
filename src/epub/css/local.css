@@ -2,22 +2,30 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+/* Preface */
 body [xml|lang]{
 	font-style: italic;
+}
+
+cite{
+	font-variant: small-caps;
+	text-align: right;
 }
 
 footer{
 	margin-top: 1em;
 	text-align: right;
 }
+/* End preface */
 
+/* Poem */
 [epub|type~="z3998:poem"] header p{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
 }
 
-[epub|type~="z3998:poem"]{
+section[epub|type~="z3998:poem"]{
 	text-align: center;
 }
 
@@ -41,3 +49,4 @@ span > span:first-of-type{
 	/* styling for caesuras */
 	margin-right: 1.5em;
 }
+/* End poem */

@@ -19,14 +19,17 @@ footer{
 /* End preface */
 
 /* Poem */
-[epub|type~="z3998:poem"] header p{
+[epub|type~="z3998:poem"] header{
+	/* styling for stanza numbers */
+	display: block;
 	font-variant: small-caps;
-	margin: 1em;
 	text-align: center;
+	margin: 2em 0 1em 0;
 }
 
-section[epub|type~="z3998:poem"]{
-	text-align: center;
+[epub|type~="z3998:poem"] header + p{
+	/* adjusts spacing between number and stanza */
+	margin: 0;
 }
 
 [epub|type~="z3998:poem"] p{
@@ -45,7 +48,7 @@ section[epub|type~="z3998:poem"]{
 	display: none;
 }
 
-span > span:first-of-type{
+span > span:first-child{
 	/* styling for caesuras */
 	margin-right: 1.5em;
 }

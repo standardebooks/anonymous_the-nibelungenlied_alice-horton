@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-04-02T22:44:27Z</dc:date>
+		<meta property="dcterms:modified">2021-04-02T22:44:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -24,6 +24,7 @@
 		<meta property="schema:accessibilityFeature">readingOrder</meta>
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
+		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
@@ -51,17 +52,17 @@
 		<meta property="term" refines="#subject-6">sh94003601</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">This lyrical poem follows the hero Siegfried on his epic adventures, death, and wife’s revenge.</dc:description>
+		<dc:description id="description">The epic poem that follows the legendary hero Siegfried on his adventures, his death, and his wife’s revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The &lt;i&gt;Nibelungenlied&lt;/i&gt; was Germany’s first heroic epic put into writing and was considered by Thomas Carlyle as “a precious national possession, recovered after six centuries of neglect, and takes undisputed place among the sacred books of German literature.” Due to lacking interest in copying manuscripts, the work was forgotten, only faintly remembered as an influence in other German writing. Today, a total of 36 manuscripts have been unearthed. Many of these are only poem fragments, but three manuscripts have been viewed as the most complete and authentic versions to exist: these manuscripts are referred to as “A,” “B,” and “C.”&lt;/p&gt;
-			&lt;p&gt;“A” follows most of the original written forms but is the shortest manuscript out of the three. “C” is the most altered edition as it was changed to suit later cultural tastes. Manuscript “B” is considered the gold standard since it shows signs of minimal alterations and is of intermediate length. Alice Horton has used this as the foundation of her English edition to create a work that is accurate in translation, preserves its lyrical quality, and portrays an epic adventure that grabs the reader’s attention.&lt;/p&gt;
-			&lt;p&gt;Siegfried, the knighted Netherland prince, has plans to marry the beautiful Princess Kriemhilda of Burgundy. He visits Worms to bargain with the three kings and Kriemhilda’s brothers: Gunther, Gernot, and Giselher. Famed for his impenetrable skin and inhuman strength after bathing in dragon’s blood, Siegfried may be the perfect man to help them. To marry their sister and receive her wealth, Siegfried must convince the ruler beyond the sea and the mighty maiden warrior to be Gunther’s wife. This queen has sworn only to marry a man who can beat her three challenges, at the risk of beheading if he should fail.&lt;/p&gt;
+			&lt;p&gt;The &lt;i&gt;Nibelungenlied&lt;/i&gt; was Germany’s first heroic epic put into writing. Thomas Carlyle considered it “a precious national possession, recovered after six centuries of neglect, [which] takes undisputed place among the sacred books of German literature.” Due to a lack of interest in copying the manuscripts, the work was forgotten, only faintly remembered as an influence in other German writing. Today, a total of 36 manuscripts have been unearthed. Many of these are only poem fragments, but three manuscripts have been viewed as the most complete and authentic versions to exist: these manuscripts are referred to as “A,” “B,” and “C.”&lt;/p&gt;
+			&lt;p&gt;“A” follows most of the original written forms, but is the shortest manuscript of the three. “C” is the most altered edition, as it was changed to suit later cultural tastes. Manuscript “B” is considered the gold standard since it shows signs of minimal alterations and is of intermediate length. Alice Horton has used manuscript “B” as the foundation of her English edition, creating a work that is accurate in translation and with its lyrical quality preserved. It portrays an epic adventure that grabs and holds the reader’s attention.&lt;/p&gt;
+			&lt;p&gt;Siegfried, the knighted prince of Netherland, has plans to marry the beautiful Princess Kriemhilda of Burgundy. He visits Worms to bargain with the three kings and Kriemhilda’s brothers: Gunther, Gernot, and Giselher. Famed for his impenetrable skin and inhuman strength after bathing in dragon’s blood, Siegfried may be the perfect man to help them. To marry their sister and receive her wealth, Siegfried must convince the ruler beyond the sea and the mighty maiden warrior to be Gunther’s wife. This queen has sworn only to marry a man who can beat her three challenges, at the risk of beheading if he should fail.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/nibelungslay00hortrich</dc:source>
 		<meta property="se:production-notes">The stanza numbers were kept to match English and modern German editions.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">102825</meta>
+		<meta property="se:reading-ease.flesch">75.95</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Nibelungenlied</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anonymous_the-nibelungenlied_alice-horton</meta>
 		<dc:creator id="author">Anonymous</dc:creator>
@@ -90,6 +91,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>

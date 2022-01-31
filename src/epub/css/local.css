@@ -23,8 +23,8 @@ footer{
 	/* styling for stanza numbers */
 	display: block;
 	font-variant: small-caps;
-	text-align: center;
 	margin: 2em 0 1em 0;
+	text-align: center;
 }
 
 [epub|type~="z3998:poem"] header + p{
@@ -40,8 +40,8 @@ footer{
 
 [epub|type~="z3998:poem"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:poem"] p > span + br{

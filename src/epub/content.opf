@@ -45,7 +45,7 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh85044323</meta>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
-		<meta property="term" refines="#subject-5">Unknown</meta>
+		<meta property="term" refines="#subject-5">sh88004832</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh94003601</meta>
 		<meta property="se:subject">Adventure</meta>

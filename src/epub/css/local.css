@@ -52,4 +52,8 @@ span > span:first-child{
 	/* styling for caesuras */
 	margin-right: 1.5em;
 }
+
+[epub|type~="z3998:poem"] hgroup p{
+	text-align: center;
+}
 /* End poem */

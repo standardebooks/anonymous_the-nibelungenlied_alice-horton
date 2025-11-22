@@ -29,8 +29,8 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Nibelungenlied</dc:title>
 		<meta property="file-as" refines="#title">Nibelungenlied, The</meta>
-		<meta property="dcterms:alternate" refines="#title">The Song of the Nibelungs</meta>
-		<meta property="dcterms:alternate" refines="#title">The Lay of the Nibelungs</meta>
+		<meta property="dcterms:alternative" refines="#title">The Song of the Nibelungs</meta>
+		<meta property="dcterms:alternative" refines="#title">The Lay of the Nibelungs</meta>
 		<dc:subject id="subject-1">Folklore -- Germany</dc:subject>
 		<dc:subject id="subject-2">Siegfried (Legendary character)</dc:subject>
 		<dc:subject id="subject-3">Mythology, Germanic</dc:subject>

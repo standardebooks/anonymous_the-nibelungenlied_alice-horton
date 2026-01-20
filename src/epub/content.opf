@@ -60,7 +60,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/nibelungslay00hortrich</dc:source>
 		<meta property="se:production-notes">The stanza numbers were kept to match English and modern German editions.</meta>
-		<meta property="se:word-count">102826</meta>
+		<meta property="se:word-count">100455</meta>
 		<meta property="se:reading-ease.flesch">76.05</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Nibelungenlied</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/anonymous_the-nibelungenlied_alice-horton</meta>

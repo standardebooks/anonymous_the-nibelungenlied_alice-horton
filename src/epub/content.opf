@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton</dc:identifier>
 		<dc:date>2021-04-02T22:44:27Z</dc:date>
 		<meta property="dcterms:modified">2021-04-02T22:44:27Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -49,8 +50,8 @@
 		<meta property="term" refines="#subject-5">sh88004832</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh94003601</meta>
-		<meta property="se:subject">Adventure</meta>
-		<meta property="se:subject">Poetry</meta>
+		<meta property="schema:genre">Adventure</meta>
+		<meta property="schema:genre">Poetry</meta>
 		<dc:description id="description">The epic poem that follows the legendary hero Siegfried on his adventures, his death, and his wife’s revenge.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The &lt;i&gt;Nibelungenlied&lt;/i&gt; was Germany’s first heroic epic put into writing. Thomas Carlyle considered it “a precious national possession, recovered after six centuries of neglect, [which] takes undisputed place among the sacred books of German literature.” Due to a lack of interest in copying the manuscripts, the work was forgotten, only faintly remembered as an influence in other German writing. Today, a total of 36 manuscripts have been unearthed. Many of these are only poem fragments, but three manuscripts have been viewed as the most complete and authentic versions to exist: these manuscripts are referred to as “A,” “B,” and “C.”&lt;/p&gt;
@@ -59,11 +60,12 @@
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/nibelungslay00hortrich</dc:source>
-		<meta property="se:production-notes">The stanza numbers were kept to match English and modern German editions.</meta>
-		<meta property="se:word-count">100455</meta>
-		<meta property="se:reading-ease.flesch">76.05</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Nibelungenlied</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/anonymous_the-nibelungenlied_alice-horton</meta>
+		<meta property="schema:wordCount">100455</meta>
+		<meta property="schema:educationalLevel">76.05</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Nibelungenlied" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/anonymous_the-nibelungenlied_alice-horton" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Anonymous</dc:creator>
 		<meta property="file-as" refines="#author">Anonymous</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -75,15 +77,15 @@
 		<meta property="file-as" refines="#editor">Bell, Edward</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">wpr</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/nr95021061</meta>
+		<link href="https://id.loc.gov/authorities/names/nr95021061.html" refines="#editor" rel="schema:sameAs"/>
 		<dc:contributor id="artist">Peter Nicolai Arbo</dc:contributor>
 		<meta property="file-as" refines="#artist">Arbo, Peter Nicolai</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Peter_Nicolai_Arbo</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n84087293</meta>
+		<link href="https://en.wikipedia.org/wiki/Peter_Nicolai_Arbo" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n84087293.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -93,7 +95,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

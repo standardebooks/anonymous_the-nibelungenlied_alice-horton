@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/anonymous/the-nibelungenlied/alice-horton</dc:identifier>
 		<dc:date>2021-04-02T22:44:27Z</dc:date>
@@ -52,12 +52,12 @@
 		<meta property="term" refines="#subject-6">sh94003601</meta>
 		<meta property="schema:genre">Adventure</meta>
 		<meta property="schema:genre">Poetry</meta>
-		<dc:description id="description">The epic poem that follows the legendary hero Siegfried on his adventures, his death, and his wife’s revenge.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The epic poem that follows the legendary hero Siegfried on his adventures, his death, and his wife’s revenge.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;The &lt;i&gt;Nibelungenlied&lt;/i&gt; was Germany’s first heroic epic put into writing. Thomas Carlyle considered it “a precious national possession, recovered after six centuries of neglect, [which] takes undisputed place among the sacred books of German literature.” Due to a lack of interest in copying the manuscripts, the work was forgotten, only faintly remembered as an influence in other German writing. Today, a total of 36 manuscripts have been unearthed. Many of these are only poem fragments, but three manuscripts have been viewed as the most complete and authentic versions to exist: these manuscripts are referred to as “A,” “B,” and “C.”&lt;/p&gt;
 			&lt;p&gt;“A” follows most of the original written forms, but is the shortest manuscript of the three. “C” is the most altered edition, as it was changed to suit later cultural tastes. Manuscript “B” is considered the gold standard since it shows signs of minimal alterations and is of intermediate length. Alice Horton has used manuscript “B” as the foundation of her English edition, creating a work that is accurate in translation and with its lyrical quality preserved. It portrays an epic adventure that grabs and holds the reader’s attention.&lt;/p&gt;
 			&lt;p&gt;Siegfried, the knighted prince of Netherland, has plans to marry the beautiful Princess Kriemhilda of Burgundy. He visits Worms to bargain with the three kings and Kriemhilda’s brothers: Gunther, Gernot, and Giselher. Famed for his impenetrable skin and inhuman strength after bathing in dragon’s blood, Siegfried may be the perfect man to help them. To marry their sister and receive her wealth, Siegfried must convince the ruler beyond the sea and the mighty maiden warrior to be Gunther’s wife. This queen has sworn only to marry a man who can beat her three challenges, at the risk of beheading if he should fail.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/nibelungslay00hortrich</dc:source>
 		<meta property="schema:wordCount">100455</meta>
